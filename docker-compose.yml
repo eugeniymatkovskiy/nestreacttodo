@@ -41,7 +41,3 @@ services:
       - ./frontend:/usr/src/frontend
       - /usr/src/frontend/node_modules 
 
-  # mongo:
-  #   image: mongo
-  #   ports:
-  #     - "27017:27017"
